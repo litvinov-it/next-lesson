@@ -11,9 +11,13 @@
 
 ## Запуск backend:
 1. Записать свои данные в .env файл
-2. Выполнить команду:
+2. Запустить докер:
 ```bash
 docker compose up
+```
+3. Сделать миграцию
+```bash
+npx prisma migrate dev
 ```
 
 ## Запуск frontend:
